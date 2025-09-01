@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button"
 interface ContactInfo {
   email: string
   github: string
-  linkedin: string
-  resume: string
+  linkedin?: string
+  resume?: string
 }
 
 interface ContactProps {
@@ -33,12 +33,14 @@ export function Contact({ contact }: ContactProps) {
             </a>
           </Button>
           
-          <Button variant="outline" asChild>
-            <a href={contact.linkedin} target="_blank" rel="noopener noreferrer">
-              <Linkedin className="h-4 w-4 mr-2" />
-              LinkedIn
-            </a>
-          </Button>
+          {contact.linkedin && (
+            <Button variant="outline" asChild>
+              <a href={contact.linkedin} target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-4 w-4 mr-2" />
+                LinkedIn
+              </a>
+            </Button>
+          )}
           
           {contact.resume && contact.resume !== "#" && (
             <Button variant="outline" asChild>
