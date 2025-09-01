@@ -7,7 +7,7 @@ interface ResearchItem {
   topic: string
   dates: string
   bullets: string[]
-  links: { [key: string]: string }
+  links?: { [key: string]: string }
 }
 
 interface ResearchProps {
