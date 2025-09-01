@@ -1,0 +1,60 @@
+{
+  "name": "Nguyen Minh Quang",
+  "title": "Data Science",
+  "bio": "IT student — AI R&D (Computer Vision, Edge). Built real-time prototypes under tight deadlines; comfortable with data pipelines. Seeking CV/ML R&D internship to ship models to production on edge devices.",
+  "tags": ["AI R&D","Computer Vision","Edge","Python","OpenCV","PyTorch","ONNX"],
+  "projects": [
+    {
+      "title": "Smart Helmet — HUD/IoT Safety Stack",
+      "role": "Project Lead",
+      "stack": ["Python","OpenCV","PyTorch","ONNX"],
+      "summary": "Camera-based drowsiness, collision sensing, voice/SOS, real-time telemetry; defined alert criteria and latency acceptance; produced demo-ready prototype with docs and test checklists.",
+      "metrics": ["Camera-based drowsiness detection","Collision sensing with voice/SOS","Real-time telemetry system"],
+      "details": "Designed HUD/IoT safety stack with camera-based drowsiness and collision alerts, SOS voice & telemetry. Latency budgeted, threshold tuning, setup docs for <1h deployment."
+    },
+    {
+      "title": "Hydrogen Leak Detector",
+      "role": "Developer",
+      "stack": ["Python","Signal Processing","Ras Pi 5"],
+      "summary": "Implemented portable H₂ leak detection with calibrated sensors, signal processing, and thresholding; created repeatable field-test procedure for industrial settings.",
+      "metrics": ["Portable H₂ leak detection","Calibrated sensor integration"],
+      "details": "Thresholding + filtering pipeline for H₂ detection. Field-test playbook; stability across industrial corridor scenarios."
+    },
+    {
+      "title": "Robot Bông 2025 (Tết Deployment)",
+      "role": "Developer",
+      "stack": ["Python","State Machine","OpenCV","Computer Vision"],
+      "summary": "Contributed computer-vision/image-processing modules for AI humanoid showcased at Nguyễn Huệ Flower Street during Tết 2025.",
+      "metrics": ["Computer vision modules","AI humanoid showcase","Tết 2025 deployment"],
+      "links": {"press":"https://nld.com.vn/cong-nghe/lo-dien-robot-bong-duoc-dieu-khien-bang-tri-tue-nhan-tao-tai-duong-hoa-nguyen-hue-20250115085916471.htm"},
+      "details": "Vision-driven interactions for festival robot. Delivered end-to-end within a 13-member cross-functional team in <30 days. Stabilized state machine; served thousands of visitors."
+    }
+  ],
+  "research": [
+    {
+      "title": "Undergraduate Researcher — HUFLIT",
+      "topic": "CV/NLP models; conducted literature review (IEEE/ACM/arXiv) and documented reproducible results",
+      "dates": "2025–Present",
+      "bullets": ["Designed experiments for CV/NLP models","Conducted literature review (IEEE/ACM/arXiv)","Documented reproducible results","Research report and demo-able prototype deliverables"]
+    }
+  ],
+  "experience": [
+    {"role":"Project Leader","org":"Bach Khoa Innovation 2025 (Two Teams)","dates":"Mar–Aug 2025","impact":["Planned roadmap and reviewed technical work across two student R&D teams","Smart Helmet: designed HUD/IoT safety stack","Hydrogen Leak Detector: implemented portable H₂ leak detection"]},
+    {"role":"Developer","org":"Robot Bông 2025 (City-level Tết Deployment)","dates":"Dec 2024–Feb 2025","impact":["Contributed computer-vision/image-processing modules","Delivered end-to-end within 13-member cross-functional team","Showcased at Nguyễn Huệ Flower Street during Tết 2025"]},
+    {"role":"Developer","org":"National RoboG Competition 2024 (Third Prize)","dates":"Jun–Aug 2024","impact":["Represented university in National RoboG Competition 2024","Tuned state machines and basic sensor fusion","Increased task reliability under time limits"]}
+  ],
+  "skills": {
+    "Programming":["Python","JavaScript","C#","..."],
+    "AI/CV":["PyTorch","OpenCV","ONNX","MediaPipe"],
+    "Data & Eval":["NumPy/Pandas","Communication","Teamwork"],
+    "Languages":["English","Vietnamese"]
+  },
+  "press": [
+    {"outlet":"Báo Người Lao Động","title":"Lộ diện Robot Bông được điều khiển bằng trí tuệ nhân tạo tại đường hoa Nguyễn Huệ","date":"2025-01-15","url":"https://nld.com.vn/cong-nghe/lo-dien-robot-bong-duoc-dieu-khien-bang-tri-tue-nhan-tao-tai-duong-hoa-nguyen-hue-20250115085916471.htm"},
+    {"outlet":"Báo Tuổi Trẻ","title":"Đưa robot hình ảnh metro vào đường hoa Nguyễn Huệ","date":"2025-01-07","url":"https://tuoitre.vn/dua-robot-hinh-anh-metro-vao-duong-hoa-nguyen-hue-tet-at-ty-2025-20250107221215677.htm"},
+    {"outlet":"Báo Thanh Niên","title":"Robot thông minh xuất hiện tại đường hoa Nguyễn Huệ","date":"2025-01-07","url":"https://thanhnien.vn/robot-ban-tim-chup-anh-cho-khach-tren-duong-hoa-nguyen-hue-185250129133644434.htm"},
+    {"outlet":"Kiếm Trường","title":"Sinh viên HUFLIT ẵm 4 giải thưởng tại cuộc thi Sáng tạo ROBOT - ROBOG 2024","date":"2025-01-10","url":"https://kiemtruong.vn/tin-tuyen-sinh/6996/784/1/Sinh-vien-HUFLIT-am-4-giai-thuong-tai-cuoc-thi-Sang-tao-ROBOT---ROBOG-2024.html"}
+  ],
+  "writing": [],
+  "contact": {"email":"kaynquang5@gmail.com","github":"https://www.linkedin.com/in/quang-nguyen-a3284036a/"}
+}
