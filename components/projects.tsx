@@ -10,7 +10,7 @@ interface Project {
   stack: string[]
   summary: string
   metrics: string[]
-  links: { [key: string]: string }
+  links?: { [key: string]: string }
   details: string
 }
 
